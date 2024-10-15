@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager  # Added import
 
 time_stamp = date.today()
 
@@ -36,8 +37,7 @@ def check_simulated(name):
 
 def sporty_bet():
     global time_stamp
-    driver = webdriver.Chrome(executable_path=r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-                              options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)  # Updated driver initialization
     driver.get("https://www.sportybet.com/ng/sport/football/today")
 
     driver.implicitly_wait(5)
