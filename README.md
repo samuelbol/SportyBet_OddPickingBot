@@ -8,12 +8,6 @@ Games with lower odds indicate a higher likelihood of winning according to the b
 ```
 
 ## Installation
-Here’s how you can set up your project in **PyCharm**, along with the steps to run it smoothly using WebDriver Manager.
-
----
-
-## Installation Guide for PyCharm
-
 ### 1. **Install PyCharm:**
    If you haven’t already, download and install PyCharm from [here](https://www.jetbrains.com/pycharm/download/).
 
@@ -75,23 +69,6 @@ Here’s how you can set up your project in **PyCharm**, along with the steps to
 
 ### 8. **Check Log Files:**
    After running the script, a log file (`logfile.txt`) will be generated in the project directory, summarizing the actions that were performed.
-
----
-
-### Troubleshooting in PyCharm:
-
-- **Interpreter Issues**:
-   If you encounter an error saying that dependencies aren’t found, make sure that the correct **Python Interpreter** is selected:
-   - Go to **File > Settings > Project: <Your Project> > Python Interpreter**.
-   - Select the appropriate virtual environment that has the dependencies installed.
-
-- **WebDriver Manager Errors**:
-   If WebDriver Manager has trouble installing the ChromeDriver, ensure that:
-   - **Google Chrome** is installed and up to date.
-   - The installed version of Chrome matches the version of ChromeDriver that WebDriver Manager is downloading. If not, manually update Chrome or configure WebDriver Manager to download a specific version of ChromeDriver.
-
----
-
-By following these steps, you should be able to successfully set up, configure, and run your project using PyCharm.
+   
 ## Features
 ## Future Features
