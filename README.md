@@ -53,7 +53,7 @@ Games with lower odds indicate a higher likelihood of winning according to the b
    There’s no need to manually download WebDriver for Chrome because WebDriver Manager will handle it. You only need to ensure that Google Chrome is installed on your system.
 
 ### 6. **Edit the Script to Add Credentials:**
-   In your PyCharm project, open the Python script (`main.py` or the relevant file) and find the placeholders for `"YOUR_USERNAME"` and `"YOUR_PASSWORD"`. Replace them with your Microsoft Rewards credentials.
+   In your PyCharm project, open the Python script (`main.py` or the relevant file) and find the placeholders for `"YOUR_USERNAME"` and `"YOUR_PASSWORD"`. Replace them with your login credentials.
 
    ```python
    username.send_keys("YOUR_USERNAME")
